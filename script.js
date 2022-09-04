@@ -19,11 +19,11 @@ let generatePassword = (long) => {
     alert("Jumlah password harus lebih dari 1");
     return (ress = "");
   } else if (long >= 1 && long <= 10) {
-    alert("Ada 400rb kemungkinan untuk hacker membobolnya");
+    alert("Ada 400rb kemungkinan untuk hacker membobolnya 🕵️‍♂️");
   } else if (long > 10 && long <= 30) {
-    alert("Ada 2jt kemungkinan untuk hacker membobolnya");
+    alert("Ada 2jt kemungkinan untuk hacker membobolnya 🕵️‍♂️");
   } else {
-    alert("Password anda tidak bisa dibobol");
+    alert("Password anda tidak bisa dibobol 🔏");
   }
 
   jumlahPassword.value = "";
