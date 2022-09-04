@@ -6,7 +6,7 @@ let resultPassword = document.getElementById("resultPassword");
 let generatePassword = (long) => {
   let lower = "abcdefghijklmnopqrstuvwxyz";
   let upper = lower.toUpperCase();
-  let symbol = "!@#$%^&*()_+><,.?{}[]";
+  let symbol = "!@$%&*";
 
   let data = lower + upper + symbol;
   let ress = "";
