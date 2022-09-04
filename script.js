@@ -18,6 +18,12 @@ let generatePassword = (long) => {
   if (long < 1) {
     alert("Jumlah password harus lebih dari 1");
     return (ress = "");
+  } else if (long >= 1 && long <= 10) {
+    alert("Ada 400rb kemungkinan untuk hacker membobolnya");
+  } else if (long > 50) {
+    alert("Ada 2jt kemungkinan untuk hacker membobolnya");
+  } else {
+    alert("Password anda tidak bisa dibobol");
   }
 
   jumlahPassword.value = "";
