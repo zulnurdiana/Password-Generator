@@ -20,7 +20,7 @@ let generatePassword = (long) => {
     return (ress = "");
   } else if (long >= 1 && long <= 10) {
     alert("Ada 400rb kemungkinan untuk hacker membobolnya");
-  } else if (long > 50) {
+  } else if (long > 10 && long <= 30) {
     alert("Ada 2jt kemungkinan untuk hacker membobolnya");
   } else {
     alert("Password anda tidak bisa dibobol");
